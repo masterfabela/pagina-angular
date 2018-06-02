@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../pagina-angular/node_modules/milligram/dist/milligram.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../pagina-angular/node_modules/moment/min/moment.min.js"
+            ]
           },
           "configurations": {
             "production": {
