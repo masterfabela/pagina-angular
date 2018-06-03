@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './app-routing';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TitleComponent } from './lib/components/nav/title.component';
 import { HomeComponent } from './views/home/home.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
+import { OperationsComponent } from './views/operations.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HomeComponent } from './views/home/home.component';
     NavComponent,
     FooterComponent,
     TitleComponent,
-    HomeComponent
+    HomeComponent,
+    NotFoundComponent,
+    OperationsComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +26,6 @@ import { HomeComponent } from './views/home/home.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [FooterComponent, HomeComponent]
+  exports: [FooterComponent, HomeComponent, NotFoundComponent]
 })
 export class AppModule { }

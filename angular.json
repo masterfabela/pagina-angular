@@ -24,10 +24,11 @@
             ],
             "styles": [
               "src/styles.css",
-              "../pagina-angular/node_modules/milligram/dist/milligram.min.css"
+              "../pagina-angular/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "../pagina-angular/node_modules/moment/min/moment.min.js"
+              "../pagina-angular/node_modules/moment/min/moment.min.js",
+              "../pagina-angular/node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
