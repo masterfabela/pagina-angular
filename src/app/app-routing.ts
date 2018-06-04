@@ -5,20 +5,20 @@ import { NotFoundComponent } from './views/not-found/not-found.component';
 
 const routes: Routes = [
   {
-    path: "",
+    path: '',
     component: HomeComponent
   },
   {
-    path: "404",
+    path: '404',
     component: NotFoundComponent
   },
   {
-    path: "**",
-    redirectTo: "/404"
+    path: '**',
+    redirectTo: '/404'
   },
   {
-    path: "operations",
-    loadChildren: "./views/operations/operations.module#OperationsModule"
+    path: 'operations',
+    loadChildren: './views/operations/operations.module#OperationsModule'
   }
 ];
 

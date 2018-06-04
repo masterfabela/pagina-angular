@@ -9,6 +9,7 @@ import { TitleComponent } from './lib/components/nav/title.component';
 import { HomeComponent } from './views/home/home.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
 import { OperationsComponent } from './views/operations.component';
+import { ScrollComponent } from './components/scroll/scroll.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { OperationsComponent } from './views/operations.component';
     TitleComponent,
     HomeComponent,
     NotFoundComponent,
-    OperationsComponent
+    OperationsComponent,
+    ScrollComponent
   ],
   imports: [
     BrowserModule,
