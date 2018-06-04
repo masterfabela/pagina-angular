@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as moment from "moment";
+import * as moment from 'moment';
 
 @Component({
   selector: 'pa-home',
@@ -22,8 +22,8 @@ export class HomeComponent implements OnInit {
    * Funcion que obtiene el dia de manhana
    * @returns Dia de manhana formateado
    */
-  obtenerDiaManhana(){
-    return moment().add(1,"days").format();
+  obtenerDiaManhana() {
+    return moment().add(1, 'days').format();
   }
 
   constructor() {}
