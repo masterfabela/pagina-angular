@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'pa-not-found',
   templateUrl: './not-found.component.html',
